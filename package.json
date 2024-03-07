@@ -6,11 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "analyze": "ANALYZE=true npm run build",
     "lint": "next lint"
   },
   "dependencies": {
+    "@next/bundle-analyzer": "^14.1.2",
+    "next": "14.1.0",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.1.0"
+    "react-dom": "^18"
   }
 }
